@@ -1,0 +1,79 @@
+/* ---------- General page styling ---------- */
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background-color: #f5efe0; /* aged-paper cream tone */
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #2b2b2b;
+  display: flex;
+  justify-content: center;
+}
+
+.book-page {
+  max-width: 650px;
+  text-align: center;
+}
+
+/* ---------- Header / title block ---------- */
+.book-header {
+  margin-bottom: 20px;
+}
+
+.author {
+  letter-spacing: 4px;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.book-title {
+  font-family: "Brush Script MT", cursive;
+  font-size: 48px;
+  margin: 0;
+}
+
+/* ---------- Illustration ---------- */
+.illustration {
+  margin: 20px 0;
+}
+
+.illustration img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+/* ---------- Passage text ---------- */
+.passage {
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.highlight {
+  background-color: #ffcc00;
+}
+
+.red-bold {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+/* ---------- Navigation link ---------- */
+.back-link {
+  margin-top: 30px;
+}
+
+.back-link a {
+  text-decoration: none;
+  color: #2b5cbf;
+  font-size: 14px;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
